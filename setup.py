@@ -32,7 +32,8 @@ setup(
     long_description=long_desc,
     install_requires=['setuptools>=61.0',
                       'Jinja2==3.1.2',
-                      'boto3==1.28.45'],
+                      'boto3==1.28.45',
+                      'build==1.0.3'],
     extras_require=extras_require,
     packages=['pypiprivate'],
     entry_points={
