@@ -30,9 +30,9 @@ setup(
     license='MIT License',
     description='Private package management tool for Python projects',
     long_description=long_desc,
-    install_requires=['setuptools>=36.0.0',
-                      'Jinja2==2.10.0',
-                      'boto3==1.5.27'],
+    install_requires=['setuptools>=61.0',
+                      'Jinja2==3.1.2',
+                      'boto3==1.28.45'],
     extras_require=extras_require,
     packages=['pypiprivate'],
     entry_points={
